@@ -6,12 +6,14 @@ int main() {
     char estado, codigo[4], nome[50];
     int populacao, PontosTuristicos;
     float area, PIB;
+    float densidade, pibPerCapta; //Declaração de novas variáveis - Nivel aventureiro
 
     //Declaração de variáveis carta 2
 
     char estado2, codigo2[4], nome2[50];
     int populacao2, Pontosturisticos2;
     float area2, PIB2;
+    float densidade2, pibPerCapta2; //Declaração de novas variáveis - Nivel aventureiro 
 
     //Entrada de dados da carta 1 
 
@@ -59,6 +61,16 @@ int main() {
     printf("Digite o PIB (Produto Interno Bruto) da cidade: \n");
     scanf("%f", &PIB2);
 
+    //Cálculo da densidade populacional e PIB per capta da carta 1
+
+    densidade = populacao / area;
+    pibPerCapta = PIB / populacao;
+
+    //Cálculo da densidade populalcional e PIB per capta da carta 2
+
+    densidade2 = populacao2 / area2;
+    pibPerCapta2 = PIB2 / populacao2;
+
     //Exibição de dados da carta 1 
 
     printf("\n---Dados da carta 1:\n");
@@ -69,6 +81,9 @@ int main() {
     printf("Pontos turísticos: %d \n", PontosTuristicos);
     printf("Área: %.2f km² \n", area);
     printf("PIB: %.2f bilhões de reais \n", PIB);
+    printf("Densidade populacional: %2.f \n", densidade);
+    printf("PIB per capta: %2.f \n", pibPerCapta);
+
 
     //Exibição de dados da carta 2
 
@@ -80,6 +95,8 @@ int main() {
     printf("Pontos turísticos: %d \n", Pontosturisticos2);
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões de reais \n", PIB2);
+    printf("Densidade populacional: %2.f \n", densidade2);
+    printf("PIB per capta: %2.f \n", pibPerCapta2);
 
 
 
