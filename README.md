@@ -36,6 +36,12 @@ No nível Novato, você iniciará criando o sistema básico do jogo Super Trunfo
 *   **Não use** laços (`for`, `while`) ou condicionais (`if`, `else`).
 
 
+
+**Simplificações para o Nível Intermediário:**
+
+*   Continue cadastrando apenas **duas** cartas.
+*   Continue **sem usar** laços (`for`, `while`) ou condicionais (`if`, `else`).
+
 ## 🛡️ Nível Aventureiro: Cálculo de Atributos
 
 No nível Aventureiro, você expandirá o sistema para incluir o cálculo de dois novos atributos: Densidade Populacional e PIB per Capita.
@@ -55,12 +61,6 @@ No nível Aventureiro, você expandirá o sistema para incluir o cálculo de doi
 
 *   Mesma entrada do nível Novato.
 *   A saída exibirá também os atributos calculados.
-
-**Simplificações para o Nível Intermediário:**
-
-*   Continue cadastrando apenas **duas** cartas.
-*   Continue **sem usar** laços (`for`, `while`) ou condicionais (`if`, `else`).
-
 
 
 ## 🏆 Nível Mestre: Comparação e Super Poder
