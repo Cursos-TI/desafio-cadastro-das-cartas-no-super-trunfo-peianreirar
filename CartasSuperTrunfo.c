@@ -113,13 +113,13 @@ int main() {
     // comparação de cartas
 
     printf("\n---Comparação de cartas---\n");
-    printf("População: carta 1 venceu %d \n", populacao > populacao2);
-    printf("Área: carta 1 venceu %d \n", area > area2);
-    printf("PIB: carta 1 vendeu %d \n", PIB > PIB2);
-    printf("Pontos turísticos: carta1 venceu %d \n", PontosTuristicos > Pontosturisticos2);
-    printf("Densidade populacional: Carta 1 venceu %d \n", densidade < densidade2); //vence o menor
-    printf("PIB per capta: carta 1 venceu %d \n", pibPerCapta > pibPerCapta2);
-    printf("Super poder: carta 1 venceu %d \n", superPoder > superPoder2);
+    printf("População: carta 1 venceu (%d) \n", populacao > populacao2);
+    printf("Área: carta 1 venceu (%d) \n", area > area2);
+    printf("PIB: carta 1 vendeu (%d) \n", PIB > PIB2);
+    printf("Pontos turísticos: carta1 venceu (%d) \n", PontosTuristicos > Pontosturisticos2);
+    printf("Densidade populacional: Carta 1 venceu (%d) \n", densidade < densidade2); //vence o menor
+    printf("PIB per capta: carta 1 venceu (%d) \n", pibPerCapta > pibPerCapta2);
+    printf("Super poder: carta 1 venceu (%d) \n", superPoder > superPoder2);
 
 
 
